@@ -1,0 +1,12 @@
+{
+ "addons": {
+  "bskyUnGeoBlock@firefox.invoxiplaygames.uk": {
+   "updates": [
+    {
+     "version": "1.0.1",
+     "update_link": "https://github.com/InvoxiPlayGames/bskyUnGeoBlock/releases/download/1.0.1/bskyUnGeoBlock-1.0.1-firefox.xpi"
+    }
+   ]
+  }
+ }
+}
