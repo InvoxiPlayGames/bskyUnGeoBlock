@@ -28,19 +28,30 @@ If Firefox doesn't ask you if you want to install the extension,
 
 1. Open your browser's "Extensions" page.
 2. Click "Install Add-on from File..."
-3. Select the XPI file you downloaded.
+3. Select the XPI file you downloaded in step 1.
 
 ### Google Chrome, Microsoft Edge, Vivaldi, etc (Chromiums)
 
 The extension isn't currently available on any web store, it must be installed
-manually.
+manually via developer mode.
 
 1. Download the extension's ZIP file from [the releases page](https://github.com/InvoxiPlayGames/bskyUnGeoBlock/releases).
 2. Extract the ZIP file somewhere on your computer.
 3. Open your browser's "Extensions" page.
 4. Enable the "Developer mode" toggle.
 5. Click the new "Load unpacked" button
-6. Select the folder you extracted the ZIP file to in stage 2.
+6. Select the folder you extracted the ZIP file to in step 2.
+
+### Mozilla Firefox for Android
+
+You must install the extension manually via developer mode.
+
+1. Download the extension's XPI file from [the releases page](https://github.com/InvoxiPlayGames/bskyUnGeoBlock/releases).
+2. Go to Firefox's Settings
+3. Enable Developer mode by going to "About Firefox" and tapping the logo 5
+   times.
+4. Go back and then select "Install add-on from file"
+5. Select the XPI file you downloaded in step 1.
 
 ### Apple Safari
 
