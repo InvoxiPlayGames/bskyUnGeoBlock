@@ -55,7 +55,16 @@ You must install the extension manually via developer mode.
 
 ### Apple Safari
 
-The extension does not support Safari.
+The extension isn't currently signed or on the App Store, it must be installed
+manually via developer mode.
+
+1. Download the extension's ZIP file from [the releases page](https://github.com/InvoxiPlayGames/bskyUnGeoBlock/releases).
+2. Extract the ZIP file somewhere on your computer.
+3. Open your browser's "Settings" page.
+4. Under "Advanced", check "Show features for web developers".
+5. Under "Develop", check "Allow Unsigned Extensions".
+6. Start the bskyUnGeoBlock application and enable the extension in Safari.
+7. Ensure permission is granted to access all requested domains.
 
 ## Implementation
 
