@@ -27,10 +27,9 @@ instead.
 **To install it temporarily (will be uninstalled after closing Firefox):**
 
 1. Download the extension's ZIP file from [the releases page](https://github.com/InvoxiPlayGames/bskyUnGeoBlock/releases).
-2. Extract the ZIP file somewhere on your computer.
-3. Go to `about:debugging` in Firefox and select "This Firefox" on the sidebar.
-4. Click "Load Temporary Add-on..."
-5. Select "manifest.json" from the folder you extracted the ZIP to in stage 2.
+2. Go to `about:debugging` in Firefox and select "This Firefox" on the sidebar.
+3. Click "Load Temporary Add-on..."
+4. Select the ZIP you downloaded in stage 1.
 
 ### Apple Safari
 
