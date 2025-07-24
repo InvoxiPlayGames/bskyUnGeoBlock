@@ -1,0 +1,17 @@
+[
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+        "type": "redirect",
+        "redirect": {
+            "extensionPath": "/getAgeAssuranceState-response.json"
+        }
+    },
+    "condition": {
+        "initiatorDomains": ["bsky.app"],
+        "urlFilter": "/xrpc/app.bsky.unspecced.getAgeAssuranceState",
+        "resourceTypes": ["xmlhttprequest"]
+    }
+  }
+]

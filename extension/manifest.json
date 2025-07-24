@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json.schemastore.org/chrome-manifest",
+  "manifest_version": 3,
+  "name": "bskyUnGeoBlock",
+  "description": "Disables geographic restrictions (moderation, age verification) on Bluesky's web app.",
+  "version": "1.0",
+  "permissions": ["declarativeNetRequestWithHostAccess"],
+  "host_permissions": [
+    "https://bsky.app/",
+    "https://*.bsky.network/",
+    "https://bsky.social/"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "getAgeAssuranceState",
+        "enabled": true,
+        "path": "getAgeAssuranceState-rule.json"
+      },
+      {
+        "id": "ipcc",
+        "enabled": true,
+        "path": "ipcc-rule.json"
+      }
+    ]
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["isAgeAssured-response.json"],
+      "matches": ["<all_urls>"],
+      "use_dynamic_url": true
+    },
+    {
+      "resources": ["ipcc-response.json"],
+      "matches": ["<all_urls>"],
+      "use_dynamic_url": true
+    }
+  ],
+  "icons": {
+    "48": "icon/48.png",
+    "128": "icon/128.png"
+  }
+}

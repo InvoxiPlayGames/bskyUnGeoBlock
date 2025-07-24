@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+        "type": "redirect",
+        "redirect": {
+            "extensionPath": "/ipcc-response.json"
+        }
+    },
+    "condition": {
+        "requestDomains": ["bsky.app"],
+        "initiatorDomains": ["bsky.app"],
+        "urlFilter": "/ipcc",
+        "resourceTypes": ["xmlhttprequest"]
+    }
+  }
+]
