@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+        "type": "redirect",
+        "redirect": {
+            "extensionPath": "/ip-config-response.json"
+        }
+    },
+    "condition": {
+        "requestDomains": ["ip.bsky.app"],
+        "initiatorDomains": ["bsky.app"],
+        "urlFilter": "/config",
+        "resourceTypes": ["xmlhttprequest"]
+    }
+  }
+]
