@@ -55,7 +55,7 @@ You must install the extension manually via developer mode.
 
 ### Apple Safari
 
-The extension does not support Safari.
+TODO
 
 ## Implementation
 

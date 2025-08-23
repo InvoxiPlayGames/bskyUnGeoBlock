@@ -1,0 +1,993 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B596EEAB2E5A705B00BC27C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B596EEAA2E5A705B00BC27C8 /* AppDelegate.m */; };
+		B596EEAE2E5A705B00BC27C8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B596EEAD2E5A705B00BC27C8 /* SceneDelegate.m */; };
+		B596EEB12E5A705B00BC27C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B596EEAF2E5A705B00BC27C8 /* LaunchScreen.storyboard */; };
+		B596EEB42E5A705B00BC27C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B596EEB22E5A705B00BC27C8 /* Main.storyboard */; };
+		B596EEB72E5A705B00BC27C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B596EEB62E5A705B00BC27C8 /* main.m */; };
+		B596EEC02E5A705B00BC27C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B596EEBF2E5A705B00BC27C8 /* AppDelegate.m */; };
+		B596EEC32E5A705B00BC27C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B596EEC12E5A705B00BC27C8 /* Main.storyboard */; };
+		B596EEC62E5A705B00BC27C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B596EEC52E5A705B00BC27C8 /* main.m */; };
+		B596EECD2E5A705B00BC27C8 /* bskyUnGeoBlock Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B596EECC2E5A705B00BC27C8 /* bskyUnGeoBlock Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B596EED72E5A705B00BC27C8 /* bskyUnGeoBlock Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B596EED62E5A705B00BC27C8 /* bskyUnGeoBlock Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B596EEDD2E5A705B00BC27C8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B596EE972E5A705A00BC27C8 /* Main.html */; };
+		B596EEDE2E5A705B00BC27C8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B596EE972E5A705A00BC27C8 /* Main.html */; };
+		B596EEDF2E5A705B00BC27C8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B596EE992E5A705A00BC27C8 /* Icon.png */; };
+		B596EEE02E5A705B00BC27C8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B596EE992E5A705A00BC27C8 /* Icon.png */; };
+		B596EEE12E5A705B00BC27C8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = B596EE9A2E5A705A00BC27C8 /* Style.css */; };
+		B596EEE22E5A705B00BC27C8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = B596EE9A2E5A705A00BC27C8 /* Style.css */; };
+		B596EEE32E5A705B00BC27C8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = B596EE9B2E5A705A00BC27C8 /* Script.js */; };
+		B596EEE42E5A705B00BC27C8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = B596EE9B2E5A705A00BC27C8 /* Script.js */; };
+		B596EEE52E5A705B00BC27C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B596EE9D2E5A705A00BC27C8 /* ViewController.m */; };
+		B596EEE62E5A705B00BC27C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B596EE9D2E5A705A00BC27C8 /* ViewController.m */; };
+		B596EEE72E5A705B00BC27C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B596EE9E2E5A705B00BC27C8 /* Assets.xcassets */; };
+		B596EEE82E5A705B00BC27C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B596EE9E2E5A705B00BC27C8 /* Assets.xcassets */; };
+		B596EEE92E5A705B00BC27C8 /* SafariWebExtensionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B596EEA12E5A705B00BC27C8 /* SafariWebExtensionHandler.m */; };
+		B596EEEA2E5A705B00BC27C8 /* SafariWebExtensionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B596EEA12E5A705B00BC27C8 /* SafariWebExtensionHandler.m */; };
+		B596EF052E5A705B00BC27C8 /* getAgeAssuranceState-response.json in Resources */ = {isa = PBXBuildFile; fileRef = B596EEFC2E5A705B00BC27C8 /* getAgeAssuranceState-response.json */; };
+		B596EF062E5A705B00BC27C8 /* ipcc-rule.json in Resources */ = {isa = PBXBuildFile; fileRef = B596EEFD2E5A705B00BC27C8 /* ipcc-rule.json */; };
+		B596EF072E5A705B00BC27C8 /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = B596EEFE2E5A705B00BC27C8 /* _metadata */; };
+		B596EF082E5A705B00BC27C8 /* ip-config-response.json in Resources */ = {isa = PBXBuildFile; fileRef = B596EEFF2E5A705B00BC27C8 /* ip-config-response.json */; };
+		B596EF092E5A705B00BC27C8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B596EF002E5A705B00BC27C8 /* manifest.json */; };
+		B596EF0A2E5A705B00BC27C8 /* ipcc-response.json in Resources */ = {isa = PBXBuildFile; fileRef = B596EF012E5A705B00BC27C8 /* ipcc-response.json */; };
+		B596EF0B2E5A705B00BC27C8 /* getAgeAssuranceState-rule.json in Resources */ = {isa = PBXBuildFile; fileRef = B596EF022E5A705B00BC27C8 /* getAgeAssuranceState-rule.json */; };
+		B596EF0C2E5A705B00BC27C8 /* icon in Resources */ = {isa = PBXBuildFile; fileRef = B596EF032E5A705B00BC27C8 /* icon */; };
+		B596EF0D2E5A705B00BC27C8 /* ip-config-rule.json in Resources */ = {isa = PBXBuildFile; fileRef = B596EF042E5A705B00BC27C8 /* ip-config-rule.json */; };
+		B596EF0E2E5A705B00BC27C8 /* getAgeAssuranceState-response.json in Resources */ = {isa = PBXBuildFile; fileRef = B596EEFC2E5A705B00BC27C8 /* getAgeAssuranceState-response.json */; };
+		B596EF0F2E5A705B00BC27C8 /* ipcc-rule.json in Resources */ = {isa = PBXBuildFile; fileRef = B596EEFD2E5A705B00BC27C8 /* ipcc-rule.json */; };
+		B596EF102E5A705B00BC27C8 /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = B596EEFE2E5A705B00BC27C8 /* _metadata */; };
+		B596EF112E5A705B00BC27C8 /* ip-config-response.json in Resources */ = {isa = PBXBuildFile; fileRef = B596EEFF2E5A705B00BC27C8 /* ip-config-response.json */; };
+		B596EF122E5A705B00BC27C8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B596EF002E5A705B00BC27C8 /* manifest.json */; };
+		B596EF132E5A705B00BC27C8 /* ipcc-response.json in Resources */ = {isa = PBXBuildFile; fileRef = B596EF012E5A705B00BC27C8 /* ipcc-response.json */; };
+		B596EF142E5A705B00BC27C8 /* getAgeAssuranceState-rule.json in Resources */ = {isa = PBXBuildFile; fileRef = B596EF022E5A705B00BC27C8 /* getAgeAssuranceState-rule.json */; };
+		B596EF152E5A705B00BC27C8 /* icon in Resources */ = {isa = PBXBuildFile; fileRef = B596EF032E5A705B00BC27C8 /* icon */; };
+		B596EF162E5A705B00BC27C8 /* ip-config-rule.json in Resources */ = {isa = PBXBuildFile; fileRef = B596EF042E5A705B00BC27C8 /* ip-config-rule.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B596EECE2E5A705B00BC27C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B596EE912E5A705900BC27C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B596EECB2E5A705B00BC27C8;
+			remoteInfo = "bskyUnGeoBlock Extension (iOS)";
+		};
+		B596EED82E5A705B00BC27C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B596EE912E5A705900BC27C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B596EED52E5A705B00BC27C8;
+			remoteInfo = "bskyUnGeoBlock Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B596EEF02E5A705B00BC27C8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B596EECD2E5A705B00BC27C8 /* bskyUnGeoBlock Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B596EEF72E5A705B00BC27C8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B596EED72E5A705B00BC27C8 /* bskyUnGeoBlock Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B596EE982E5A705A00BC27C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		B596EE992E5A705A00BC27C8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B596EE9A2E5A705A00BC27C8 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		B596EE9B2E5A705A00BC27C8 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		B596EE9C2E5A705A00BC27C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B596EE9D2E5A705A00BC27C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B596EE9E2E5A705B00BC27C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B596EEA02E5A705B00BC27C8 /* SafariWebExtensionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariWebExtensionHandler.h; sourceTree = "<group>"; };
+		B596EEA12E5A705B00BC27C8 /* SafariWebExtensionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariWebExtensionHandler.m; sourceTree = "<group>"; };
+		B596EEA62E5A705B00BC27C8 /* bskyUnGeoBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bskyUnGeoBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B596EEA92E5A705B00BC27C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B596EEAA2E5A705B00BC27C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B596EEAC2E5A705B00BC27C8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B596EEAD2E5A705B00BC27C8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B596EEB02E5A705B00BC27C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B596EEB32E5A705B00BC27C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B596EEB52E5A705B00BC27C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B596EEB62E5A705B00BC27C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B596EEBC2E5A705B00BC27C8 /* bskyUnGeoBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bskyUnGeoBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B596EEBE2E5A705B00BC27C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B596EEBF2E5A705B00BC27C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B596EEC22E5A705B00BC27C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B596EEC42E5A705B00BC27C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B596EEC52E5A705B00BC27C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B596EEC72E5A705B00BC27C8 /* bskyUnGeoBlock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bskyUnGeoBlock.entitlements; sourceTree = "<group>"; };
+		B596EECC2E5A705B00BC27C8 /* bskyUnGeoBlock Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "bskyUnGeoBlock Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B596EED12E5A705B00BC27C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B596EED62E5A705B00BC27C8 /* bskyUnGeoBlock Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "bskyUnGeoBlock Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B596EEDB2E5A705B00BC27C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B596EEDC2E5A705B00BC27C8 /* bskyUnGeoBlock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bskyUnGeoBlock.entitlements; sourceTree = "<group>"; };
+		B596EEFC2E5A705B00BC27C8 /* getAgeAssuranceState-response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "getAgeAssuranceState-response.json"; path = "../../../extension/getAgeAssuranceState-response.json"; sourceTree = "<group>"; };
+		B596EEFD2E5A705B00BC27C8 /* ipcc-rule.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "ipcc-rule.json"; path = "../../../extension/ipcc-rule.json"; sourceTree = "<group>"; };
+		B596EEFE2E5A705B00BC27C8 /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = ../../../extension/_metadata; sourceTree = "<group>"; };
+		B596EEFF2E5A705B00BC27C8 /* ip-config-response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "ip-config-response.json"; path = "../../../extension/ip-config-response.json"; sourceTree = "<group>"; };
+		B596EF002E5A705B00BC27C8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../extension/manifest.json; sourceTree = "<group>"; };
+		B596EF012E5A705B00BC27C8 /* ipcc-response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "ipcc-response.json"; path = "../../../extension/ipcc-response.json"; sourceTree = "<group>"; };
+		B596EF022E5A705B00BC27C8 /* getAgeAssuranceState-rule.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "getAgeAssuranceState-rule.json"; path = "../../../extension/getAgeAssuranceState-rule.json"; sourceTree = "<group>"; };
+		B596EF032E5A705B00BC27C8 /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icon; path = ../../../extension/icon; sourceTree = "<group>"; };
+		B596EF042E5A705B00BC27C8 /* ip-config-rule.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "ip-config-rule.json"; path = "../../../extension/ip-config-rule.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B596EEA32E5A705B00BC27C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B596EEB92E5A705B00BC27C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B596EEC92E5A705B00BC27C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B596EED32E5A705B00BC27C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B596EE902E5A705900BC27C8 = {
+			isa = PBXGroup;
+			children = (
+				B596EE952E5A705A00BC27C8 /* Shared (App) */,
+				B596EE9F2E5A705B00BC27C8 /* Shared (Extension) */,
+				B596EEA82E5A705B00BC27C8 /* iOS (App) */,
+				B596EEBD2E5A705B00BC27C8 /* macOS (App) */,
+				B596EED02E5A705B00BC27C8 /* iOS (Extension) */,
+				B596EEDA2E5A705B00BC27C8 /* macOS (Extension) */,
+				B596EEA72E5A705B00BC27C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B596EE952E5A705A00BC27C8 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				B596EE9C2E5A705A00BC27C8 /* ViewController.h */,
+				B596EE9D2E5A705A00BC27C8 /* ViewController.m */,
+				B596EE9E2E5A705B00BC27C8 /* Assets.xcassets */,
+				B596EE962E5A705A00BC27C8 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		B596EE962E5A705A00BC27C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B596EE972E5A705A00BC27C8 /* Main.html */,
+				B596EE992E5A705A00BC27C8 /* Icon.png */,
+				B596EE9A2E5A705A00BC27C8 /* Style.css */,
+				B596EE9B2E5A705A00BC27C8 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B596EE9F2E5A705B00BC27C8 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				B596EEFB2E5A705B00BC27C8 /* Resources */,
+				B596EEA02E5A705B00BC27C8 /* SafariWebExtensionHandler.h */,
+				B596EEA12E5A705B00BC27C8 /* SafariWebExtensionHandler.m */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		B596EEA72E5A705B00BC27C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B596EEA62E5A705B00BC27C8 /* bskyUnGeoBlock.app */,
+				B596EEBC2E5A705B00BC27C8 /* bskyUnGeoBlock.app */,
+				B596EECC2E5A705B00BC27C8 /* bskyUnGeoBlock Extension.appex */,
+				B596EED62E5A705B00BC27C8 /* bskyUnGeoBlock Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B596EEA82E5A705B00BC27C8 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				B596EEA92E5A705B00BC27C8 /* AppDelegate.h */,
+				B596EEAA2E5A705B00BC27C8 /* AppDelegate.m */,
+				B596EEAC2E5A705B00BC27C8 /* SceneDelegate.h */,
+				B596EEAD2E5A705B00BC27C8 /* SceneDelegate.m */,
+				B596EEAF2E5A705B00BC27C8 /* LaunchScreen.storyboard */,
+				B596EEB22E5A705B00BC27C8 /* Main.storyboard */,
+				B596EEB52E5A705B00BC27C8 /* Info.plist */,
+				B596EEB62E5A705B00BC27C8 /* main.m */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		B596EEBD2E5A705B00BC27C8 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				B596EEBE2E5A705B00BC27C8 /* AppDelegate.h */,
+				B596EEBF2E5A705B00BC27C8 /* AppDelegate.m */,
+				B596EEC12E5A705B00BC27C8 /* Main.storyboard */,
+				B596EEC42E5A705B00BC27C8 /* Info.plist */,
+				B596EEC52E5A705B00BC27C8 /* main.m */,
+				B596EEC72E5A705B00BC27C8 /* bskyUnGeoBlock.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		B596EED02E5A705B00BC27C8 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				B596EED12E5A705B00BC27C8 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		B596EEDA2E5A705B00BC27C8 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				B596EEDB2E5A705B00BC27C8 /* Info.plist */,
+				B596EEDC2E5A705B00BC27C8 /* bskyUnGeoBlock.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		B596EEFB2E5A705B00BC27C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B596EEFC2E5A705B00BC27C8 /* getAgeAssuranceState-response.json */,
+				B596EEFD2E5A705B00BC27C8 /* ipcc-rule.json */,
+				B596EEFE2E5A705B00BC27C8 /* _metadata */,
+				B596EEFF2E5A705B00BC27C8 /* ip-config-response.json */,
+				B596EF002E5A705B00BC27C8 /* manifest.json */,
+				B596EF012E5A705B00BC27C8 /* ipcc-response.json */,
+				B596EF022E5A705B00BC27C8 /* getAgeAssuranceState-rule.json */,
+				B596EF032E5A705B00BC27C8 /* icon */,
+				B596EF042E5A705B00BC27C8 /* ip-config-rule.json */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B596EEA52E5A705B00BC27C8 /* bskyUnGeoBlock (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B596EEF12E5A705B00BC27C8 /* Build configuration list for PBXNativeTarget "bskyUnGeoBlock (iOS)" */;
+			buildPhases = (
+				B596EEA22E5A705B00BC27C8 /* Sources */,
+				B596EEA32E5A705B00BC27C8 /* Frameworks */,
+				B596EEA42E5A705B00BC27C8 /* Resources */,
+				B596EEF02E5A705B00BC27C8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B596EECF2E5A705B00BC27C8 /* PBXTargetDependency */,
+			);
+			name = "bskyUnGeoBlock (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "bskyUnGeoBlock (iOS)";
+			productReference = B596EEA62E5A705B00BC27C8 /* bskyUnGeoBlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B596EEBB2E5A705B00BC27C8 /* bskyUnGeoBlock (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B596EEF82E5A705B00BC27C8 /* Build configuration list for PBXNativeTarget "bskyUnGeoBlock (macOS)" */;
+			buildPhases = (
+				B596EEB82E5A705B00BC27C8 /* Sources */,
+				B596EEB92E5A705B00BC27C8 /* Frameworks */,
+				B596EEBA2E5A705B00BC27C8 /* Resources */,
+				B596EEF72E5A705B00BC27C8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B596EED92E5A705B00BC27C8 /* PBXTargetDependency */,
+			);
+			name = "bskyUnGeoBlock (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "bskyUnGeoBlock (macOS)";
+			productReference = B596EEBC2E5A705B00BC27C8 /* bskyUnGeoBlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B596EECB2E5A705B00BC27C8 /* bskyUnGeoBlock Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B596EEED2E5A705B00BC27C8 /* Build configuration list for PBXNativeTarget "bskyUnGeoBlock Extension (iOS)" */;
+			buildPhases = (
+				B596EEC82E5A705B00BC27C8 /* Sources */,
+				B596EEC92E5A705B00BC27C8 /* Frameworks */,
+				B596EECA2E5A705B00BC27C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bskyUnGeoBlock Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "bskyUnGeoBlock Extension (iOS)";
+			productReference = B596EECC2E5A705B00BC27C8 /* bskyUnGeoBlock Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B596EED52E5A705B00BC27C8 /* bskyUnGeoBlock Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B596EEF42E5A705B00BC27C8 /* Build configuration list for PBXNativeTarget "bskyUnGeoBlock Extension (macOS)" */;
+			buildPhases = (
+				B596EED22E5A705B00BC27C8 /* Sources */,
+				B596EED32E5A705B00BC27C8 /* Frameworks */,
+				B596EED42E5A705B00BC27C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bskyUnGeoBlock Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "bskyUnGeoBlock Extension (macOS)";
+			productReference = B596EED62E5A705B00BC27C8 /* bskyUnGeoBlock Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B596EE912E5A705900BC27C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					B596EEA52E5A705B00BC27C8 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					B596EEBB2E5A705B00BC27C8 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					B596EECB2E5A705B00BC27C8 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					B596EED52E5A705B00BC27C8 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = B596EE942E5A705900BC27C8 /* Build configuration list for PBXProject "bskyUnGeoBlock" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B596EE902E5A705900BC27C8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B596EEA72E5A705B00BC27C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B596EEA52E5A705B00BC27C8 /* bskyUnGeoBlock (iOS) */,
+				B596EEBB2E5A705B00BC27C8 /* bskyUnGeoBlock (macOS) */,
+				B596EECB2E5A705B00BC27C8 /* bskyUnGeoBlock Extension (iOS) */,
+				B596EED52E5A705B00BC27C8 /* bskyUnGeoBlock Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B596EEA42E5A705B00BC27C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B596EEDF2E5A705B00BC27C8 /* Icon.png in Resources */,
+				B596EEB12E5A705B00BC27C8 /* LaunchScreen.storyboard in Resources */,
+				B596EEDD2E5A705B00BC27C8 /* Main.html in Resources */,
+				B596EEE32E5A705B00BC27C8 /* Script.js in Resources */,
+				B596EEE72E5A705B00BC27C8 /* Assets.xcassets in Resources */,
+				B596EEB42E5A705B00BC27C8 /* Main.storyboard in Resources */,
+				B596EEE12E5A705B00BC27C8 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B596EEBA2E5A705B00BC27C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B596EEE02E5A705B00BC27C8 /* Icon.png in Resources */,
+				B596EEE22E5A705B00BC27C8 /* Style.css in Resources */,
+				B596EEC32E5A705B00BC27C8 /* Main.storyboard in Resources */,
+				B596EEE42E5A705B00BC27C8 /* Script.js in Resources */,
+				B596EEE82E5A705B00BC27C8 /* Assets.xcassets in Resources */,
+				B596EEDE2E5A705B00BC27C8 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B596EECA2E5A705B00BC27C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B596EF102E5A705B00BC27C8 /* _metadata in Resources */,
+				B596EF0F2E5A705B00BC27C8 /* ipcc-rule.json in Resources */,
+				B596EF122E5A705B00BC27C8 /* manifest.json in Resources */,
+				B596EF0E2E5A705B00BC27C8 /* getAgeAssuranceState-response.json in Resources */,
+				B596EF112E5A705B00BC27C8 /* ip-config-response.json in Resources */,
+				B596EF162E5A705B00BC27C8 /* ip-config-rule.json in Resources */,
+				B596EF152E5A705B00BC27C8 /* icon in Resources */,
+				B596EF132E5A705B00BC27C8 /* ipcc-response.json in Resources */,
+				B596EF142E5A705B00BC27C8 /* getAgeAssuranceState-rule.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B596EED42E5A705B00BC27C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B596EF072E5A705B00BC27C8 /* _metadata in Resources */,
+				B596EF062E5A705B00BC27C8 /* ipcc-rule.json in Resources */,
+				B596EF092E5A705B00BC27C8 /* manifest.json in Resources */,
+				B596EF052E5A705B00BC27C8 /* getAgeAssuranceState-response.json in Resources */,
+				B596EF082E5A705B00BC27C8 /* ip-config-response.json in Resources */,
+				B596EF0D2E5A705B00BC27C8 /* ip-config-rule.json in Resources */,
+				B596EF0C2E5A705B00BC27C8 /* icon in Resources */,
+				B596EF0A2E5A705B00BC27C8 /* ipcc-response.json in Resources */,
+				B596EF0B2E5A705B00BC27C8 /* getAgeAssuranceState-rule.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B596EEA22E5A705B00BC27C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B596EEAB2E5A705B00BC27C8 /* AppDelegate.m in Sources */,
+				B596EEB72E5A705B00BC27C8 /* main.m in Sources */,
+				B596EEE52E5A705B00BC27C8 /* ViewController.m in Sources */,
+				B596EEAE2E5A705B00BC27C8 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B596EEB82E5A705B00BC27C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B596EEE62E5A705B00BC27C8 /* ViewController.m in Sources */,
+				B596EEC62E5A705B00BC27C8 /* main.m in Sources */,
+				B596EEC02E5A705B00BC27C8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B596EEC82E5A705B00BC27C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B596EEE92E5A705B00BC27C8 /* SafariWebExtensionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B596EED22E5A705B00BC27C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B596EEEA2E5A705B00BC27C8 /* SafariWebExtensionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B596EECF2E5A705B00BC27C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B596EECB2E5A705B00BC27C8 /* bskyUnGeoBlock Extension (iOS) */;
+			targetProxy = B596EECE2E5A705B00BC27C8 /* PBXContainerItemProxy */;
+		};
+		B596EED92E5A705B00BC27C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B596EED52E5A705B00BC27C8 /* bskyUnGeoBlock Extension (macOS) */;
+			targetProxy = B596EED82E5A705B00BC27C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B596EE972E5A705A00BC27C8 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B596EE982E5A705A00BC27C8 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		B596EEAF2E5A705B00BC27C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B596EEB02E5A705B00BC27C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B596EEB22E5A705B00BC27C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B596EEB32E5A705B00BC27C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B596EEC12E5A705B00BC27C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B596EEC22E5A705B00BC27C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B596EEEB2E5A705B00BC27C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		B596EEEC2E5A705B00BC27C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		B596EEEE2E5A705B00BC27C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "bskyUnGeoBlock Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.invoxiplaygames.safari.bskyUnGeoBlock.Extension;
+				PRODUCT_NAME = "bskyUnGeoBlock Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B596EEEF2E5A705B00BC27C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "bskyUnGeoBlock Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.invoxiplaygames.safari.bskyUnGeoBlock.Extension;
+				PRODUCT_NAME = "bskyUnGeoBlock Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B596EEF22E5A705B00BC27C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = bskyUnGeoBlock;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.invoxiplaygames.safari.bskyUnGeoBlock;
+				PRODUCT_NAME = bskyUnGeoBlock;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B596EEF32E5A705B00BC27C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = bskyUnGeoBlock;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.invoxiplaygames.safari.bskyUnGeoBlock;
+				PRODUCT_NAME = bskyUnGeoBlock;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B596EEF52E5A705B00BC27C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/bskyUnGeoBlock.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "bskyUnGeoBlock Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.invoxiplaygames.safari.bskyUnGeoBlock.Extension;
+				PRODUCT_NAME = "bskyUnGeoBlock Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		B596EEF62E5A705B00BC27C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/bskyUnGeoBlock.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "bskyUnGeoBlock Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.invoxiplaygames.safari.bskyUnGeoBlock.Extension;
+				PRODUCT_NAME = "bskyUnGeoBlock Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		B596EEF92E5A705B00BC27C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/bskyUnGeoBlock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = bskyUnGeoBlock;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.invoxiplaygames.safari.bskyUnGeoBlock;
+				PRODUCT_NAME = bskyUnGeoBlock;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		B596EEFA2E5A705B00BC27C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/bskyUnGeoBlock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = bskyUnGeoBlock;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.invoxiplaygames.safari.bskyUnGeoBlock;
+				PRODUCT_NAME = bskyUnGeoBlock;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B596EE942E5A705900BC27C8 /* Build configuration list for PBXProject "bskyUnGeoBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B596EEEB2E5A705B00BC27C8 /* Debug */,
+				B596EEEC2E5A705B00BC27C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B596EEED2E5A705B00BC27C8 /* Build configuration list for PBXNativeTarget "bskyUnGeoBlock Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B596EEEE2E5A705B00BC27C8 /* Debug */,
+				B596EEEF2E5A705B00BC27C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B596EEF12E5A705B00BC27C8 /* Build configuration list for PBXNativeTarget "bskyUnGeoBlock (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B596EEF22E5A705B00BC27C8 /* Debug */,
+				B596EEF32E5A705B00BC27C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B596EEF42E5A705B00BC27C8 /* Build configuration list for PBXNativeTarget "bskyUnGeoBlock Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B596EEF52E5A705B00BC27C8 /* Debug */,
+				B596EEF62E5A705B00BC27C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B596EEF82E5A705B00BC27C8 /* Build configuration list for PBXNativeTarget "bskyUnGeoBlock (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B596EEF92E5A705B00BC27C8 /* Debug */,
+				B596EEFA2E5A705B00BC27C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B596EE912E5A705900BC27C8 /* Project object */;
+}
